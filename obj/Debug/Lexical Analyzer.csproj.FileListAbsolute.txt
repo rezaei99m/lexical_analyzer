@@ -1,0 +1,28 @@
+F:\University\Compiler\Project\Phase 1\Console Version\Lexical Analyzer\Lexical Analyzer\bin\Debug\Lexical Analyzer.exe.config
+F:\University\Compiler\Project\Phase 1\Console Version\Lexical Analyzer\Lexical Analyzer\bin\Debug\Lexical Analyzer.exe
+F:\University\Compiler\Project\Phase 1\Console Version\Lexical Analyzer\Lexical Analyzer\bin\Debug\Lexical Analyzer.pdb
+F:\University\Compiler\Project\Phase 1\Console Version\Lexical Analyzer\Lexical Analyzer\obj\Debug\Lexical Analyzer.csprojAssemblyReference.cache
+F:\University\Compiler\Project\Phase 1\Console Version\Lexical Analyzer\Lexical Analyzer\obj\Debug\Lexical Analyzer.csproj.CoreCompileInputs.cache
+F:\University\Compiler\Project\Phase 1\Console Version\Lexical Analyzer\Lexical Analyzer\obj\Debug\Lexical Analyzer.exe
+F:\University\Compiler\Project\Phase 1\Console Version\Lexical Analyzer\Lexical Analyzer\obj\Debug\Lexical Analyzer.pdb
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V2.0\Lexical Analyzer\Lexical Analyzer\obj\Debug\Lexical Analyzer.csprojAssemblyReference.cache
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V2.0\Lexical Analyzer\Lexical Analyzer\obj\Debug\Lexical Analyzer.csproj.CoreCompileInputs.cache
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V2.0\Lexical Analyzer\Lexical Analyzer\obj\Debug\Lexical Analyzer.exe
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V2.0\Lexical Analyzer\Lexical Analyzer\obj\Debug\Lexical Analyzer.pdb
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V2.0\Lexical Analyzer\Lexical Analyzer\bin\Debug\Lexical Analyzer.exe.config
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V2.0\Lexical Analyzer\Lexical Analyzer\bin\Debug\Lexical Analyzer.exe
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V2.0\Lexical Analyzer\Lexical Analyzer\bin\Debug\Lexical Analyzer.pdb
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V3.0\Lexical Analyzer\Lexical Analyzer\bin\Debug\Lexical Analyzer.exe.config
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V3.0\Lexical Analyzer\Lexical Analyzer\bin\Debug\Lexical Analyzer.exe
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V3.0\Lexical Analyzer\Lexical Analyzer\bin\Debug\Lexical Analyzer.pdb
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V3.0\Lexical Analyzer\Lexical Analyzer\obj\Debug\Lexical Analyzer.csprojAssemblyReference.cache
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V3.0\Lexical Analyzer\Lexical Analyzer\obj\Debug\Lexical Analyzer.csproj.CoreCompileInputs.cache
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V3.0\Lexical Analyzer\Lexical Analyzer\obj\Debug\Lexical Analyzer.exe
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V3.0\Lexical Analyzer\Lexical Analyzer\obj\Debug\Lexical Analyzer.pdb
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V4.0\Lexical Analyzer\Lexical Analyzer\obj\Debug\Lexical Analyzer.csprojAssemblyReference.cache
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V4.0\Lexical Analyzer\Lexical Analyzer\obj\Debug\Lexical Analyzer.csproj.CoreCompileInputs.cache
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V4.0\Lexical Analyzer\Lexical Analyzer\obj\Debug\Lexical Analyzer.exe
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V4.0\Lexical Analyzer\Lexical Analyzer\obj\Debug\Lexical Analyzer.pdb
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V4.0\Lexical Analyzer\Lexical Analyzer\bin\Debug\Lexical Analyzer.exe.config
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V4.0\Lexical Analyzer\Lexical Analyzer\bin\Debug\Lexical Analyzer.exe
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V4.0\Lexical Analyzer\Lexical Analyzer\bin\Debug\Lexical Analyzer.pdb

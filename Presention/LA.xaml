@@ -1,0 +1,231 @@
+﻿<Window x:Class="Lexical_Analyzer.LA"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:Lexical_Analyzer"
+        mc:Ignorable="d"
+        Title="LA" WindowStyle="None" WindowState="Maximized" Height="673.284" Width="1013.964">
+    <Grid Background="Yellow">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="300"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBox Foreground="Black" 
+                     VerticalAlignment="Top" 
+                     BorderThickness="3" 
+                     Margin="10,10,94,0" 
+                     Grid.Row="1"  
+                     FontSize="20" 
+                     FontFamily="Segoe Print" 
+                     AcceptsReturn="True" 
+                     AcceptsTab="True"
+                     x:Name="inputBox" ToolTip="you can see prevoius line by scrolling up using up arrow."
+                     ></TextBox>
+            <Button Grid.Row="1"
+                    Background="Black"
+                    Foreground="White" 
+                    Margin="0,10,10,1" 
+                    Height="Auto"
+                    FontFamily="Segoe Print"
+                    FontWeight="Bold"
+                    HorizontalAlignment="Right" Click="Button_Click"
+                    >FINISH</Button>
+            <Label FontSize="30" Margin="10 10 10 0" FontFamily="Segoe Print" FontWeight="Bold" >INPUT:</Label>
+            <DockPanel  MouseDown="PackIcon_MouseDown" Cursor="Hand" Height="40" Width="40" HorizontalAlignment="Right" VerticalAlignment="Top" Background="Transparent" Margin="0 0 5 0" >
+                <materialDesign:PackIcon Kind="Close" Height="40" Width="40" ></materialDesign:PackIcon>
+            </DockPanel>
+        </Grid>
+
+        <Grid Grid.Row="1" Margin="10 20 10 0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Border Grid.Column="0"
+                    Grid.Row="1"
+                    Grid.RowSpan="2"
+                    BorderBrush="Black"
+                    BorderThickness="3">
+
+                <ScrollViewer Grid.Column="0" Margin="0 0 0 0" Grid.RowSpan="2" Grid.Row="1">
+                    <Grid x:Name="tokenDisplay">
+                        <Grid.RowDefinitions>
+                        </Grid.RowDefinitions>
+                    </Grid>
+                </ScrollViewer>
+            </Border>
+            <!-- This is for showing Tokens which are created-->
+            <Label Grid.Column="0" FontSize="30" FontFamily="Segoe Print" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold">Tokens</Label>
+            <!--Test Complete!-->
+            
+            <!--This is for showing Symbole Table -->
+            <Label Grid.Column="1" FontSize="30" FontFamily="Segoe Print" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold"  >Symbole Table</Label>
+            <Border Grid.Row="1"
+                    Grid.Column="1"
+                    Grid.RowSpan="2"
+                    BorderBrush="Black"
+                    BorderThickness="3"
+                    Margin="10 0 0 0">
+                <ScrollViewer Grid.Column="1"
+                              Grid.RowSpan="2"
+                              Grid.Row="1">
+                    <Grid x:Name="symboleTable" Margin="10 0 0 0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <!--For every id we should use this Grid -->
+                        <Grid Margin="0 0 0 5" 
+                          Height="auto" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="50"></ColumnDefinition>
+                                <ColumnDefinition ></ColumnDefinition>
+                                <ColumnDefinition ></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" 
+                                   FontSize="20" 
+                                   Margin="0 0 0 0"
+                                   HorizontalAlignment="Left">NO.</TextBlock>
+                            <TextBlock Grid.Column="1" 
+                                   FontSize="20" 
+                                   TextWrapping="Wrap"
+                                   HorizontalAlignment="Left">Name</TextBlock>
+                            <TextBlock Grid.Column="2" 
+                                   FontSize="20"
+                                   HorizontalAlignment="Left">Value</TextBlock>
+                            <Canvas Height="2" 
+                                VerticalAlignment="Bottom" 
+                                Background="Black" 
+                                Grid.ColumnSpan="3"></Canvas>
+                        </Grid>
+                        <!---->
+                </Grid>
+            </ScrollViewer>
+            </Border>
+            
+            <!-- This is for showing number table -->
+            <Label Grid.Column="2" FontSize="30" FontFamily="Segoe Print" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" >Number Table</Label>
+                        <Border Grid.Row="1"
+                    Grid.Column="2"
+                    Grid.RowSpan="2"
+                    BorderBrush="Black"
+                    BorderThickness="3"
+                    Margin="10 0 0 0">
+                            <ScrollViewer Grid.Column="2"  Grid.RowSpan="2" Grid.Row="1">
+                                <Grid Margin="10 0 0 0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="auto"></RowDefinition>
+                                        <RowDefinition></RowDefinition>
+                                    </Grid.RowDefinitions>
+
+                                    <!--For every id we should use this Grid -->
+                                    <Grid Margin="0 0 0 5" Height="auto" >
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="50"></ColumnDefinition>
+                                            <ColumnDefinition ></ColumnDefinition>
+                                            <ColumnDefinition ></ColumnDefinition>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Grid.Column="0" FontSize="20" Margin="0 0 0 0">NO.</TextBlock>
+                                        <TextBlock Grid.Column="1" FontSize="20" TextWrapping="Wrap">Name</TextBlock>
+                                        <TextBlock Grid.Column="2" FontSize="20">Value</TextBlock>
+                                        <Canvas Height="2" VerticalAlignment="Bottom" Background="Black" Grid.ColumnSpan="3"></Canvas>
+                                    </Grid>
+                                    <!---->
+                        </Grid>
+            </ScrollViewer>
+                            </Border>
+
+            <!--THis is for the other tabele -->
+                            <Label Grid.Column="3" FontSize="30" FontFamily="Segoe Print" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" >String Table</Label>
+                                    <Border Grid.Row="1"
+                                    Grid.Column="3"
+                                    Grid.RowSpan="2"
+                                    BorderBrush="Black"
+                                    BorderThickness="3"
+                                    Margin="10 0 0 0">
+                                        <ScrollViewer Grid.Column="3" Grid.RowSpan="2" Grid.Row="1">
+                                            <Grid Margin="10 0 0 0">
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="auto"></RowDefinition>
+                                                </Grid.RowDefinitions>
+                                                <Grid Margin="0 0 0 5" Height="auto" >
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="50"></ColumnDefinition>
+                                                        <ColumnDefinition ></ColumnDefinition>
+                                                        <ColumnDefinition ></ColumnDefinition>
+                                                    </Grid.ColumnDefinitions>
+                                                    <TextBlock Grid.Column="0" FontSize="20" Margin="0 0 0 0">NO.</TextBlock>
+                                                    <TextBlock Grid.Column="1" FontSize="20" TextWrapping="Wrap">Name</TextBlock>
+                                                    <TextBlock Grid.Column="2" FontSize="20">Value</TextBlock>
+                                                    <Canvas Height="2" VerticalAlignment="Bottom" Background="Black" Grid.ColumnSpan="3"></Canvas>
+                                                </Grid>
+                                            </Grid>
+                                            
+                                        </ScrollViewer>
+                                    </Border>
+                                </Grid>
+    
+        <Grid Grid.Row="2"
+              Margin="10 0 10 0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <!--<Canvas Background="Black"
+                                    Height="3px"
+                                    VerticalAlignment="Top"
+                                    Margin="10,7,10,0"></Canvas>-->
+                                    <Grid Grid.Column="0"
+                                          Grid.Row="0"
+                                          >
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition></ColumnDefinition>
+                                            <ColumnDefinition></ColumnDefinition>
+                                            <ColumnDefinition></ColumnDefinition>
+                                            <ColumnDefinition></ColumnDefinition>
+                                        </Grid.ColumnDefinitions>
+                                                <Label  Grid.Column="0"
+                                                        FontSize="30"
+                                                        FontFamily="Segoe Print"
+                                                        Grid.Row="0"
+                                                        VerticalAlignment="Top"
+                                                        HorizontalAlignment="Center"
+                                                        Width="auto"
+                                                        FontWeight="Bold" 
+                                                >Errors</Label>
+                                    </Grid>
+                            
+                            <Border Grid.Row="1"
+                                    Margin="0 0 0 0"
+                                    BorderBrush="Black"
+                                    BorderThickness="3">
+                                <ScrollViewer >
+                                    <Grid x:Name="errorList"
+                                          Margin="0 0 0 0">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="auto"></RowDefinition>
+                                        </Grid.RowDefinitions>
+                                    </Grid>
+                                </ScrollViewer>
+                            </Border>
+                        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,13 @@
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V4.0\Lexical Analyzer\Lexical Analyzer\bin\Release\Lexical Analyzer.exe.config
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V4.0\Lexical Analyzer\Lexical Analyzer\bin\Release\Lexical Analyzer.exe
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V4.0\Lexical Analyzer\Lexical Analyzer\bin\Release\Lexical Analyzer.pdb
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V4.0\Lexical Analyzer\Lexical Analyzer\obj\Release\Lexical Analyzer.csproj.CoreCompileInputs.cache
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V4.0\Lexical Analyzer\Lexical Analyzer\obj\Release\Lexical Analyzer.exe
+F:\University\Compiler\Project\Phase 1\Lexical Analyzer - V4.0\Lexical Analyzer\Lexical Analyzer\obj\Release\Lexical Analyzer.pdb
+F:\Universities\Shahid Bahonar University of Kerman\Compiler\Project\Phase 1\Lexical Analyzer - V4.0\Lexical Analyzer\Lexical Analyzer\bin\Release\Lexical Analyzer.exe.config
+F:\Universities\Shahid Bahonar University of Kerman\Compiler\Project\Phase 1\Lexical Analyzer - V4.0\Lexical Analyzer\Lexical Analyzer\bin\Release\Lexical Analyzer.exe
+F:\Universities\Shahid Bahonar University of Kerman\Compiler\Project\Phase 1\Lexical Analyzer - V4.0\Lexical Analyzer\Lexical Analyzer\bin\Release\Lexical Analyzer.pdb
+F:\Universities\Shahid Bahonar University of Kerman\Compiler\Project\Phase 1\Lexical Analyzer - V4.0\Lexical Analyzer\Lexical Analyzer\obj\Release\Lexical Analyzer.csprojAssemblyReference.cache
+F:\Universities\Shahid Bahonar University of Kerman\Compiler\Project\Phase 1\Lexical Analyzer - V4.0\Lexical Analyzer\Lexical Analyzer\obj\Release\Lexical Analyzer.csproj.CoreCompileInputs.cache
+F:\Universities\Shahid Bahonar University of Kerman\Compiler\Project\Phase 1\Lexical Analyzer - V4.0\Lexical Analyzer\Lexical Analyzer\obj\Release\Lexical Analyzer.exe
+F:\Universities\Shahid Bahonar University of Kerman\Compiler\Project\Phase 1\Lexical Analyzer - V4.0\Lexical Analyzer\Lexical Analyzer\obj\Release\Lexical Analyzer.pdb
